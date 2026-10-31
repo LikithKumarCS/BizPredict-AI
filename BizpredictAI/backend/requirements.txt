@@ -1,6 +1,8 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-multipart
 pandas
 openpyxl
 xlrd
+joblib
+scikit-learn
