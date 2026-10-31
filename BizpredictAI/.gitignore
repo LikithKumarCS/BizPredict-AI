@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local database and uploaded files
+*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE
+.vscode/
